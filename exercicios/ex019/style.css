@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+
+/*  EM HTLM TUDO QUE É ID = # EM CSS. SÓ PODE UM ELEMENTO
+    EM HTLM TUDO QUE É CLASS = . EM CSS. PODE VÁRIOS ELEMENTOS*/
+body {
+    background-color: rgba(30, 128, 0, 0.534);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgba(82, 255, 47, 0.74);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: violet;
+}
+
+h2 {
+    color: rgba(73, 128, 0, 0.938);
+}
+
+p {
+    color: rgb(0, 128, 111);
+}
+
+.básico { 
+    color: #FCD317;
+    font-weight: bold;
+}
+
+.intermediário {
+     color: #6DFF75;
+}
+
+.avançado { 
+    color: #FF320F;
+}
+
+.destaque {
+    background-color: #6708ff;
+}

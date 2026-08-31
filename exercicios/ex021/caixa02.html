@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    /* Os grupos de TAGS podem ser organizados como quisermos.*/
+    <style>
+        body {
+            background-color: rgb(250, 248, 247);
+            border: 10px solid greenyellow;
+            margin: 10px 15px;
+        }
+
+        header {
+            background-color: rgb(252, 250, 249);
+            border: 10px solid rgb(79, 32, 250);
+            margin: 10px 15px;
+        }
+
+        section {
+            background-color: rgb(252, 136, 3);
+            border: 10px solid rgb(245, 32, 32);
+            margin: 10px 15px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+
+        main {
+            background-color: coral;
+            border: 10px solid rgb(255, 11, 214);
+            margin: 10px 15px;
+            border-radius: 15px 0px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+
+        article {
+            background-color: rgb(247, 85, 5);
+            border: 10px solid rgb(241, 26, 134);
+            margin: 10px 15px;
+        }
+
+        article > aside {
+            background-color: rgb(253, 129, 4);
+            border: 10px solid rgb(9, 247, 128);
+            margin: 10px 15px;
+        }
+
+        footer {
+            background-color: rgb(253, 129, 5);
+            border: 10px solid rgb(175, 8, 252);
+            margin: 10px 15px;
+        }
+
+        footer > aside{
+            background-color: rgb(253, 94, 1);
+            border: 10px solid rgb(30, 237, 252);
+            margin: 10px 15px;
+        }
+
+        nav {
+            background-color: rgb(253, 136, 1);
+            border: 10px solid rgb(7, 250, 19);
+            margin: 10px 15px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            background-color: rgb(218, 22, 22);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <section>
+            <h1>Sobre mim</h1>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo at aliquid voluptatum aperiam fugit tenetur corrupti quod cupiditate dignissimos vitae voluptas amet nemo esse iusto ipsum, officia omnis sequi facere.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae quisquam non ducimus, suscipit laboriosam dolorem blanditiis laborum exercitationem aliquid optio tenetur debitis iusto placeat amet voluptates error totam distinctio tempora.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, repellat enim fuga sunt, quisquam dolorem nostrum odit unde laborum fugit dignissimos expedita eos minus magnam deserunt at ut voluptatum voluptates.</p>                
+            </article>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h1>Minhas caracterísitcas e experiência.</h1>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, non optio. Sapiente culpa sequi ratione mollitia beatae. Dignissimos iure inventore fugiat ratione totam quis quidem itaque, nobis eum praesentium tenetur?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi libero debitis nihil quam pariatur distinctio error, nesciunt molestiae tempore consequuntur sunt qui soluta, aut quaerat voluptatum, eaque corporis dolore quibusdam.</p>
+                <aside>
+                    <p>Importante destacar essas características</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h1>Por fim</h1>
+        <aside>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae aliquam quas ipsum quod, odit nesciunt quae repellendus error sint temporibus dignissimos quis deserunt fugiat magnam delectus consequatur sed ullam quidem!</p>
+        </aside>
+    </footer>
+    <nav>
+
+        <a href="#">links</a>
+    
+    </nav>
+    <div id="bola"></div>
+</body>
+</html>
