@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }        
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;            
+        }
+
+        col.cnome {
+            background-color: rgba(7, 7, 240, 0.603);
+        }
+
+        col.csexo {
+            background-color: bisque;
+        }
+
+        col.cidade {
+            background-color: rgba(165, 42, 42, 0.5);
+        }
+
+        col.cprofi {
+            background-color: rgb(215, 250, 221);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofi">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <td scope="col">Nome</td>
+            <td scope="col">Sexo</td>
+            <td scope="col">Idade</td>
+            <td scope="col">Profissão</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Analista Técnico</td>            
+        </tr>
+        <tr>
+            <td>Cristalda</td>
+            <td>S</td>
+            <td>45</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Antonio</td>
+            <td>M</td>
+            <td>46</td>
+            <td>Advogado</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Tipster</td>
+        </tr>
+        <tr>
+            <td>Clarice</td>
+            <td>S</td>
+            <td>23</td>
+            <td>Dançarina</td>
+        </tr>
+    </table>
+</body>
+</html>
